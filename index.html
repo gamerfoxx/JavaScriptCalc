@@ -1,0 +1,88 @@
+<html>
+
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+		integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+	<!--made by Joseph Ludbrook-->
+	<link rel="stylesheet" href="MainStyles.css" />
+	<script type="text/javascript" src="calc.js"></script>
+</head>
+
+<body>
+	<main id="mainContent">
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="answer" style="width:100%;" class="text-success"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(9)">9</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(8)">8</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(7)">7</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(6)">6</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(5)">5</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(4)">4</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(3)">3</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-success" id="" onclick="calcTotal()">=</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(2)">2</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(1)">1</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-default" id="" onclick="addToNumber(0)">0</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-danger" id="" onclick="clearEqu()">C</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn-primary" id="" onclick="calcEqu('*')">*</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-primary" id="" onclick="calcEqu('/')">/</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-primary" id="" onclick="calcEqu('-')">-</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn-primary" id="" onclick="calcEqu('+')">+</button>
+			</div>
+		</div>
+
+	</main>
+</body>
+
+</html>
